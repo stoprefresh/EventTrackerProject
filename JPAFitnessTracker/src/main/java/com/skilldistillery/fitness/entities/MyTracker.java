@@ -18,11 +18,11 @@ public class MyTracker {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
-	@Temporal(value = TemporalType.TIMESTAMP)
+
 	@JoinColumn(name="date_start")
 	private LocalDateTime startDate;
 	
-	@Temporal(value = TemporalType.TIMESTAMP)
+	
 	@JoinColumn(name="date_end")
 	private LocalDateTime endDate;
 	
