@@ -8,6 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 
@@ -17,11 +18,11 @@ public class MyTracker {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
-	@Temporal(value = null)
+	@Temporal(value = TemporalType.TIMESTAMP)
 	@JoinColumn(name="date_start")
 	private LocalDateTime startDate;
 	
-	@Temporal(value = null)
+	@Temporal(value = TemporalType.TIMESTAMP)
 	@JoinColumn(name="date_end")
 	private LocalDateTime endDate;
 	
