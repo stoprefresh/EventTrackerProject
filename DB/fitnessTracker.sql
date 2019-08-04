@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `myTracker` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `date_start` DATETIME NULL,
   `date_end` DATETIME NULL,
-  `comment` VARCHAR(45) NULL,
+  `comment` LONGTEXT NULL,
   `workout_types` VARCHAR(45) NULL,
   `location` VARCHAR(45) NULL,
   PRIMARY KEY (`id`))
@@ -46,7 +46,7 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `fitnessTracker`;
-INSERT INTO `myTracker` (`id`, `date_start`, `date_end`, `comment`, `workout_types`, `location`) VALUES (1, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `myTracker` (`id`, `date_start`, `date_end`, `comment`, `workout_types`, `location`) VALUES (1, '2019-08-02 11:00:00', '2019-08-02 11:30:00', 'Quick bike ride at the Gym.', 'Stationary Bike', '24-hr Fitness');
 
 COMMIT;
 
