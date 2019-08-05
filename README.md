@@ -12,6 +12,7 @@ Vers.0.1 is deployed to AWS and will be prepped in the following week for front-
 
 Later iterations will have more data points for tracking to gauge progress and track deficiencies.
 
+* http://marsigliamiguel.com:8080/FitnessTracker/api/ping 
 
 
 ## REST API endpoints
