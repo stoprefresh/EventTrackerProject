@@ -13,7 +13,7 @@ Spring REST/JavaScript/Angular homework for Skill Distillery Week 13-15
 | Request Type | api | Description |
 |--------------|--------------|--------------|
 | GET | api/entries/all | Find All Entries |
-| GET | api/"entries/search/{keyword} | Find Entries by Comments or Workout Type |
+| GET | api/entries/search/{keyword} | Find Entries by Comments or Workout Type |
 | GET | api/entry/{id} | Find Entry by ID |
 | POST | api/entries | Add a new Entry |
 | PUT | api/entry/{id} | Update an Entry by ID|
