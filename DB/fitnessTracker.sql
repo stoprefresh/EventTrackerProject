@@ -48,6 +48,15 @@ START TRANSACTION;
 USE `fitnessTracker`;
 INSERT INTO `my_tracker` (`id`, `date_start`, `date_end`, `comment`, `workout_types`, `location`) VALUES (1, '2019-08-02 11:00:00', '2019-08-02 11:30:00', 'Quick bike ride at the Gym.', 'Stationary Bike', '24-hr Fitness');
 INSERT INTO `my_tracker` (`id`, `date_start`, `date_end`, `comment`, `workout_types`, `location`) VALUES (2, '2019-09-02 9:00:00', '2019-09-02 10:00:00', 'Chest and Tricepts at free weights', 'Free weight dumb-bells', '24-hr Fitness');
+INSERT INTO `my_tracker` (`id`, `date_start`, `date_end`, `comment`, `workout_types`, `location`) VALUES (3, NULL, NULL, NULL, NULL, '24-hr Fitness');
+INSERT INTO `my_tracker` (`id`, `date_start`, `date_end`, `comment`, `workout_types`, `location`) VALUES (4, NULL, NULL, NULL, NULL, '24-hr Fitness');
+INSERT INTO `my_tracker` (`id`, `date_start`, `date_end`, `comment`, `workout_types`, `location`) VALUES (5, NULL, NULL, NULL, NULL, '24-hr Fitness');
+INSERT INTO `my_tracker` (`id`, `date_start`, `date_end`, `comment`, `workout_types`, `location`) VALUES (6, NULL, NULL, NULL, NULL, '24-hr Fitness');
+INSERT INTO `my_tracker` (`id`, `date_start`, `date_end`, `comment`, `workout_types`, `location`) VALUES (7, NULL, NULL, NULL, NULL, '24-hr Fitness');
+INSERT INTO `my_tracker` (`id`, `date_start`, `date_end`, `comment`, `workout_types`, `location`) VALUES (8, NULL, NULL, NULL, NULL, '24-hr Fitness');
+INSERT INTO `my_tracker` (`id`, `date_start`, `date_end`, `comment`, `workout_types`, `location`) VALUES (9, NULL, NULL, NULL, NULL, '24-hr Fitness');
+INSERT INTO `my_tracker` (`id`, `date_start`, `date_end`, `comment`, `workout_types`, `location`) VALUES (10, NULL, NULL, NULL, NULL, '24-hr Fitness');
+INSERT INTO `my_tracker` (`id`, `date_start`, `date_end`, `comment`, `workout_types`, `location`) VALUES (DEFAULT, NULL, NULL, NULL, NULL, '');
 
 COMMIT;
 
