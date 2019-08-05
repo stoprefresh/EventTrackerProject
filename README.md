@@ -18,16 +18,16 @@ Spring REST/JavaScript/Angular homework for Skill Distillery Week 13-15
 | POST | api/entries | Add a new Entry |
 | PUT | api/entry/{id} | Update an Entry by ID|
 | DELETE | api/entry/{id} | Remove an Entry by ID |
-|--------------|--------------|--------------|
+
 
 ### Tech Used
--GIT
--Spring
--REST API
--Java
--MySQL
--AWS
--more to be added....
+- GIT
+- Spring
+- REST API
+- Java
+- MySQL
+- AWS
+- more to be added....
 
 ### Lessons Learned
 -Ensure DB is labeled correctly, so that Spring knows the correct one.
